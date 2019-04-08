@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -r /var/lib/apt/lists/electrarepo64.coolstar.org_._Release
+rm -r /var/lib/apt/lists/electrarepo64.coolstar.org_._Packages

@@ -1,0 +1,7 @@
+#!/bin/bash
+sed -i 's/0.0.0.0 electrarepo64.coolstar.org/#0.0.0.0 electraarepo64.coolstar.org/g' /etc/hosts
+sed -i 's/::1 electrarepo64.coolstar.org/#::1 electraarepo64.coolstar.org/g' /etc/hosts
+rm -r /var/lib/apt/lists/electrarepo64.coolstar.org_._Release
+mkdir /var/lib/apt/lists/electrarepo64.coolstar.org_._Release
+rm -r /var/lib/apt/lists/electrarepo64.coolstar.org_._Packages
+mkdir /var/lib/apt/lists/electrarepo64.coolstar.org_._Packages

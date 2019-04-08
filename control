@@ -1,0 +1,10 @@
+Package: us.diatr.sillyo2
+Name: Sileo Compatibility Layer
+Depends: mobilesubstrate
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Compatibility layer for Sileo/unc0ver. (Thanks samg and level3tjg)
+Maintainer: Diatrus
+Author: Diatrus
+Section: Tweaks
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo
